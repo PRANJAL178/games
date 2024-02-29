@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    height: 70px;
+    line-height: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: darkblue;
+    color: wheat;
+    text-align: center;
+}
+img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.choices{
+    height: 300px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+.choice{
+    align-items: center;
+    justify-content: center;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    display: flex;
+}
+.choice:hover{
+    cursor: pointer;
+    background-color: darkblue;
+}
+.scores{
+    font-size: 20px;
+    display: flex;
+    gap: 35px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg{
+    margin-top: 25px;
+}
+
+#a{
+    display: inline;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 25px;
+    font-family: cursive;
+    display: inline;
+    padding: 5px;
+}
